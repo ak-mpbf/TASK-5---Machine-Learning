@@ -1,9 +1,15 @@
 # TASK-5 Machine-Learning
 I have implemented the feed-forward neural network which produces an accuracy ~ 50 % after training.
+
 I have used Google and Chat GPT for reference and learning certain aspects of an ML model.
+
 I have only been able to implement gradient descent as the optimization algorithm.
+
 I have worked a lot on this model in the past 4 days. Hence, I would request you to please consider this task.
-The 
+
+The dataset I used for training was in five different batches. Hence I had to append all of them in load_cifar10().
+
+I am also attaching a sample submission.csv file and log train.txt and log val.txt files which I got on my computer. This is because the model takes time to get trained and it might take a long time to run the file.
 
 # Code :-
 ```.py
