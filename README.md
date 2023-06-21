@@ -1,5 +1,5 @@
 # TASK-5 Machine-Learning
-I have implemented the feed-forward neural network which produces an accuracy ~ 50 % after training.
+I have implemented the feed-forward neural network which produces an accuracy ~ 50 % after training with appropriate parameters. 
 
 I have used Google and Chat GPT for reference and learning certain aspects of an ML model.
 
