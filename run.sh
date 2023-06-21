@@ -1,0 +1,1 @@
+python train.py --lr 0.01 --momentum 0.5 --num_hidden 3 --sizes 100,100,100 --activation sigmoid --loss sq --opt adam --batch_size 20 --anneal True --save_dir pa1/ --expt_dir pa1/exp1/ --train ./cifar10/cifar-10-batches-py/data_batch_1 --test ./cifar10/cifar-10-batches-py/test_batch
