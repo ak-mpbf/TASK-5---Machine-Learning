@@ -17,7 +17,7 @@ def tanh_derivative(x):
     return 1 - np.tanh(x)**2
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--lr', type=float, default=0.8, help='initial learning rate')
+parser.add_argument('--lr', type=float, default=0.1, help='initial learning rate')
 parser.add_argument('--momentum', type=float, default=0.5, help='momentum')
 parser.add_argument('--num_hidden', type=int, default=2, help='number of hidden layers')
 parser.add_argument('--sizes', type=str, default='200,100', help='comma separated list of hidden layer sizes')
