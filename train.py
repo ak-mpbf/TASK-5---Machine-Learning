@@ -241,7 +241,7 @@ for i in range(len(predicted_labels)):
 print("% of correct predictions :-")
 print(count1*100/count2)
 
-submission_data = pd.DataFrame({'id': range(1, len(predicted_labels) + 1),'label': predicted_labels,'asli': actual_answer})
+submission_data = pd.DataFrame({'id': range(1, len(predicted_labels) + 1),'label': predicted_labels})
 # Save the DataFrame as a CSV file
 submission_data.to_csv(args.expt_dir+"/submission.csv", index=False)
 
